@@ -45,7 +45,7 @@ namespace BreathingRoom
         public static bool JustUpdated { get; private set; }
 
         static DispatcherTimer timer;
-        static bool checking;
+        static bool checking, failureLogged;
         static readonly List<Action<Release, string>> waiting = new List<Action<Release, string>>();
 
         // Raised on the UI thread when "Update now" didn't work (the reason in plain words).
@@ -168,7 +168,12 @@ namespace BreathingRoom
                         Store.Data.Settings.LastUpdateCheck = DateTime.UtcNow.ToString("o", CultureInfo.InvariantCulture);
                         Store.Save();
                     }
-                    else Store.Log("Update check failed: " + error);
+                    else if (!failureLogged)
+                    {
+                        // Offline, it would fail every hour: once per run is enough to go on.
+                        failureLogged = true;
+                        Store.Log("Update check failed: " + error + " (not logged again until the next start)");
+                    }
                     // Only a release that can actually be installed counts, and one that was
                     // taken back stops being offered.
                     Release newer = latest != null && latest.Version > Current && latest.ZipUrl != null && latest.ShaUrl != null ? latest : null;

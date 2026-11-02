@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-11-02
+
+### Fixed
+
+- While the PC is offline, a failed update check is noted in the log once per run instead of every hour.
+
 ## [1.0.0] - 2026-11-02
 
 The first public release.
@@ -69,4 +75,5 @@ The first public release.
 - **Light on your PC:** like a real cat, Mochi mostly sits still (a blink, a tail flick now and then), keeps still while a fullscreen game is in front, and stops animating entirely while hidden. The games cap themselves at about 60 frames a second, pause in the background, keep real time on slow PCs, and pick graphics-card or software drawing, whichever this PC does faster.
 - **Safe with your data:** saves are atomic with a backup copy. An unreadable data file is kept aside instead of being overwritten, and times stay correct across daylight-saving changes.
 
+[1.0.1]: https://github.com/richard-nodev/breathing-room/releases/tag/v1.0.1
 [1.0.0]: https://github.com/richard-nodev/breathing-room/releases/tag/v1.0.0

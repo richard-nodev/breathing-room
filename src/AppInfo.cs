@@ -4,16 +4,16 @@ using System.Reflection;
 [assembly: AssemblyDescription("A desk cat that helps you notice your smoking. No rules, no lectures.")]
 [assembly: AssemblyProduct("Breathing Room")]
 [assembly: AssemblyCopyright("Copyright (c) 2026 Breathing Room contributors. MIT License.")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: AssemblyInformationalVersion("1.0.0")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyInformationalVersion("1.0.1")]
 
 namespace BreathingRoom
 {
     public static class AppInfo
     {
         public const string Name = "Breathing Room";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
 
         // The GitHub repository: About links to it, and the updater reads its releases.
         public const string ProjectUrl = "https://github.com/richard-nodev/breathing-room";
