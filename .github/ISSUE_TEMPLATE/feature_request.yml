@@ -1,0 +1,22 @@
+name: Idea
+description: Suggest something that would make Breathing Room more useful.
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Breathing Room has one design rule: it notices, it never tells people what to do.
+        No countdowns, targets, warnings or guilt. Ideas that fit that rule are very welcome.
+  - type: textarea
+    id: moment
+    attributes:
+      label: The moment
+      description: Describe a real moment where Breathing Room could have helped and didn't.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true

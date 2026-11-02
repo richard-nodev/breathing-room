@@ -1,0 +1,41 @@
+name: Bug report
+description: Something doesn't work the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please don't paste your data file here; it holds your personal history.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Press Ctrl+Alt+S while ...
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: Breathing Room version
+      description: Tray icon → About.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2"
+  - type: textarea
+    id: log
+    attributes:
+      label: Error log
+      description: If %APPDATA%\BreathingRoom\errors.log exists, paste its last lines here.
+      render: text

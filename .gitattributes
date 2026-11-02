@@ -1,0 +1,12 @@
+# Normalize text files; keep Windows line endings where Windows tools expect them.
+* text=auto
+*.cs text diff=csharp
+*.md text
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.txt text
+
+# Binary assets
+*.wav binary
+*.ico binary
+*.png binary

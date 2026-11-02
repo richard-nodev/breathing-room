@@ -1,0 +1,27 @@
+# id|kind|label|moments it is used for until the user picks (trill=logging, question, mew, happy, yawn=waking up, purr)
+elix-1|meow|Elix, mew 1 · higher|question,mew
+elix-2|meow|Elix, mew 2 · lower|trill,mew,happy
+elix-3|meow|Elix, mew 3 · higher|trill,mew
+elix-4|meow|Elix, mew 4 · medium|question,mew
+meow-0494|meow|Short meow · low|mew,happy
+yawn-elix-1|meow|Elix, mew 1 · sleepy|
+yawn-elix-2|meow|Elix, mew 2 · sleepy|yawn
+yawn-elix-3|meow|Elix, mew 3 · sleepy|
+yawn-elix-4|meow|Elix, mew 4 · sleepy|
+yawn-elix-2-deep|meow|Elix, mew 2 · very sleepy|yawn
+yawn-elix-3-deep|meow|Elix, mew 3 · very sleepy|
+emi-1472|meow|Emi, little meow 2 · medium|
+emi-1473|meow|Emi, little meow 3 · soft|
+emi-1474|meow|Emi, little meow 4 · soft|
+emi-1475|meow|Emi, little meow 5 · soft|
+emi-1476|meow|Emi, little meow 6 · high, rising|
+emi-1477|meow|Emi, little meow 7 · high|
+emi-1479|meow|Emi, little meow 9 · low|
+emi-1480|meow|Emi, little meow 10 · high|
+emi-1481|meow|Emi, little meow 11 · high|
+purr-1010|purr|Steady purr|purr
+purr-0436|purr|Close, deep purr|
+purr-0981|purr|Strong purr|
+game-bounce-1|game|Ball bounce 1|bounce
+game-bounce-2|game|Ball bounce 2|bounce
+game-pop-1|game|Bubble pop|pop

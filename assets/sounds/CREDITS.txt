@@ -1,0 +1,20 @@
+Cat sounds in this folder are cut from recordings by Joseph SARDIN on BigSoundBank
+(https://bigsoundbank.com), released under CC0 (public domain). No attribution is required;
+this note is just a thank-you.
+
+elix-1..4      Small mewing of a cat (s0098), "my cat Elix", one file per mew
+yawn-elix-*    The same Elix mews, slowed down and lowered (x0.84, or x0.74 for "deep"), softened
+               and faded out slowly, for when the cat wakes up
+meow-0494      Little Meow of a Cat #1 (s0494)
+emi-NNNN       Little meow of a cat (s1472-s1481), "Emi"; NNNN is the BigSoundBank sound number
+purr-1010      Cat Purring #3 (s1010), four breaths from 10.47s, made into a seamless loop
+purr-0436      Cat Purr (s0436), 1.94s-8.54s, looped
+purr-0981      Cat purring #2 (s0981), 73.30s-79.45s, looped
+
+sounds.txt lists every clip, its label in the sound picker, and the moments it is used for
+until the user makes their own picks. Processing: converted to 44.1 kHz mono, trimmed to the
+voiced part, gently high-passed, faded and leveled. Every sound in the app is one of these
+recordings; nothing is synthesized.
+
+game-bounce-1/2  Ping-pong ball, bounce #1 and #2 (s2236, s2237), first bounce, trimmed
+game-pop-1       Bubbles Burst (s1074), one pop, trimmed

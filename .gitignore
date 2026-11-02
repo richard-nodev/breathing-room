@@ -1,0 +1,12 @@
+# Build output
+bin/
+dist/
+
+# Editors and OS
+.vs/
+.vscode/
+*.suo
+*.user
+Thumbs.db
+desktop.ini
+.DS_Store
